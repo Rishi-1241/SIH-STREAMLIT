@@ -12,13 +12,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load data for Ayurvedic medicine, hospitals, and colleges
-medicine_data = pd.read_csv("C:\Users\Prakhar Agrawal\Downloads\Final_data.csv")
+medicine_data = pd.read_csv(r"C:\Users\Prakhar Agrawal\Downloads\Final_data.csv")
 medicine_data = medicine_data.dropna()
 
-hospital_data = pd.read_csv("C:\Users\Prakhar Agrawa\Downloads\hospitals.csv")
+hospital_data = pd.read_csv(r"C:\Users\Prakhar Agrawa\Downloads\hospitals.csv")
 hospital_data = hospital_data.dropna()
 
-college_data = pd.read_csv("C:\Users\Prakhar Agrawal\Downloads\ayurvedic-colleges_2- (1).csv")
+college_data = pd.read_csv(r"C:\Users\Prakhar Agrawal\Downloads\ayurvedic-colleges_2- (1).csv")
 college_data = college_data.drop_duplicates(subset='College ID')
 
 # Function to recommend Ayurvedic Medicines
