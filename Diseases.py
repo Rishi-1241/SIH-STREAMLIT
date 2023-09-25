@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-@st.cache_data
+@st.cache
 def load_data():
     return pd.read_csv("Final_data.csv")
 
