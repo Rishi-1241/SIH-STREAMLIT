@@ -15,10 +15,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 medicine_data = pd.read_csv("Final_data.csv" , encoding='utf-8')
 medicine_data = medicine_data.dropna()
 
-hospital_data = pd.read_csv(r"C:/Users/Prakhar Agrawal/Downloads/hospitals.csv" , encoding='utf-8')
+hospital_data = pd.read_csv("hospitals.csv" , encoding='utf-8')
 hospital_data = hospital_data.dropna()
 
-college_data = pd.read_csv(r"C:/Users/Prakhar Agrawal/Downloads/ayurvedic-colleges_2- (1).csv" , encoding='utf-8')
+college_data = pd.read_csv("ayurvedic-colleges_2- (1).csv" , encoding='utf-8')
 college_data = college_data.drop_duplicates(subset='College ID')
 
 
