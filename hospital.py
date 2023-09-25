@@ -24,7 +24,7 @@ def main():
     )
 
    
-    st.title("Hospital Recommender")
+    st.title("Hospital Recommender by HerbIQ")
     st.write("Enter your state, and we'll recommend hospitals for you.")
 
    
