@@ -42,12 +42,12 @@ def main():
     if similar_indices:
         st.subheader("Recommended Medicines:")
         for idx in similar_indices:
-            st.markdown(f"<span style='color: #FF5733;'>Ayurvedic Medicine:</span> {main_features.iloc[idx]['Ayurvedic Medicine']}", unsafe_allow_html=True)
-            st.markdown(f"<span style='color: #3371FF;'>Used in treatment of:</span> {main_features.iloc[idx]['Diseases Cured']}", unsafe_allow_html=True)
-            st.markdown(f"<span style='color: #33FF45;'>Cautions and Considerations:</span> {main_features.iloc[idx]['Cautions and Precautions']}", unsafe_allow_html=True)
+            st.markdown(f"<span style='color: #FFB533;'>Ayurvedic Medicine:</span> {main_features.iloc[idx]['Ayurvedic Medicine']}", unsafe_allow_html=True)
+            st.markdown(f"<span style='color: #FFB533;'>Used in treatment of:</span> {main_features.iloc[idx]['Diseases Cured']}", unsafe_allow_html=True)
+            st.markdown(f"<span style='color: #FFB533;'>Cautions and Considerations:</span> {main_features.iloc[idx]['Cautions and Precautions']}", unsafe_allow_html=True)
             st.markdown(f"<span style='color: #FFB533;'>Properties:</span> {main_features.iloc[idx]['Properties']}", unsafe_allow_html=True)
-            st.markdown(f"<span style='color: #A633FF;'>Key Ingredients:</span> {main_features.iloc[idx]['Key Ingredients']}", unsafe_allow_html=True)
-            st.markdown(f"<span style='color: #FF33CE;'>Mode of Action:</span> {main_features.iloc[idx]['Mode of Action']}", unsafe_allow_html=True)
+            st.markdown(f"<span style='color: #FFB533;'>Key Ingredients:</span> {main_features.iloc[idx]['Key Ingredients']}", unsafe_allow_html=True)
+            st.markdown(f"<span style='color: #FFB533;'>Mode of Action:</span> {main_features.iloc[idx]['Mode of Action']}", unsafe_allow_html=True)
             st.markdown("---", unsafe_allow_html=True)  # Add a horizontal line between recommendations
     else:
         st.warning("No records found for the given disease.")
