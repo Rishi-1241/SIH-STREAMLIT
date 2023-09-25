@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:\\Users\\Prakhar Agrawal\\Downloads\\hospitals.csv")
+    return pd.read_csv("hospitals.csv")
 
 def main():
     
