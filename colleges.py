@@ -18,7 +18,7 @@ def load_data():
 def main():
     
     st.set_page_config(
-        page_title="Ayurvedic College Recommender",
+        page_title="Ayurvedic College Recommender by HerbIQ",
         page_icon="🎓",
         layout="wide",
     )
